@@ -2,6 +2,10 @@ package struct_method_interface
 
 import "math"
 
+type Shape interface {
+	Area() float64
+}
+
 // Rectangle 长方形结构体
 type Rectangle struct {
 	Width  float64
